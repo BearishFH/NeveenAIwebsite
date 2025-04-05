@@ -20,9 +20,9 @@ const fontSerif = localFont({
 })
 
 export const metadata = {
-  title: "Invoice Intelligence - Transform document chaos into financial clarity",
+  title: "Neveen AI - An Autonomous Data Entry Agent",
   description:
-    "Invoice Intelligence harnesses AI precision to automate your financial document processing with old-world attention to detail.",
+    "Neveen is an autonomous AI agent for documents. She doesn't just extract data. She retrieves it, understands it, learns from it, and follows up—just like a real assistant.",
     generator: 'v0.dev'
 }
 
@@ -33,7 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable, fontSerif.variable)}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange>
           {children}
