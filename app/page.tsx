@@ -57,11 +57,12 @@ export default function LandingPage() {
                 <span className="text-white/70">Limited Beta Access Available</span>
               </div>
               <h1 className="bg-gradient-to-r from-white to-white/70 bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl lg:text-6xl">
-                Transform Document Chaos Into Financial Clarity
+                The End of Manual Data Entry
               </h1>
               <p className="mt-6 text-lg text-white/70 md:text-xl">
-                Neveen is an elegant, AI-powered invoice processing system that automates the capture, extraction, and
-                validation of financial documents with old-world precision and modern intelligence.
+                Meet Neveen — your autonomous AI agent for documents. She doesn't just extract data. She retrieves it,
+                understands it, learns from it, and follows up—just like a real assistant. Built for speed. Tuned for
+                accuracy. Designed to replace your data entry department.
               </p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link
@@ -298,14 +299,100 @@ export default function LandingPage() {
           </div>
         </section>
 
+        {/* How It Works Section */}
+        <section className="py-20 bg-black/30">
+          <div className="container">
+            <div className="mx-auto max-w-2xl text-center">
+              <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">
+                Intake. Interpret. Act. Improve.
+              </h2>
+              <p className="mt-4 text-white/70">
+                Neveen runs your entire document intake pipeline with autonomous intelligence.
+              </p>
+            </div>
+
+            <div className="mt-16 grid gap-8 md:grid-cols-5">
+              {/* Step 1 */}
+              <div className="flex flex-col items-center">
+                <div className="relative mb-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-fuchsia-500/10 text-fuchsia-500 z-10">
+                    <span className="text-2xl font-bold">1</span>
+                  </div>
+                  <div className="absolute top-1/2 left-full h-px w-full bg-gradient-to-r from-fuchsia-500 to-transparent hidden md:block"></div>
+                </div>
+                <h3 className="text-xl font-semibold text-white text-center mb-2">Multi-Channel Access</h3>
+                <p className="text-white/70 text-center text-sm">
+                  Receive documents via email, direct uploads, or forward them straight to Neveen.
+                </p>
+              </div>
+
+              {/* Step 2 */}
+              <div className="flex flex-col items-center">
+                <div className="relative mb-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-cyan-500/10 text-cyan-500 z-10">
+                    <span className="text-2xl font-bold">2</span>
+                  </div>
+                  <div className="absolute top-1/2 left-full h-px w-full bg-gradient-to-r from-cyan-500 to-transparent hidden md:block"></div>
+                </div>
+                <h3 className="text-xl font-semibold text-white text-center mb-2">Smart Extraction</h3>
+                <p className="text-white/70 text-center text-sm">
+                  Instantly parses receipts, invoices, forms, spreadsheets—no templates required.
+                </p>
+              </div>
+
+              {/* Step 3 */}
+              <div className="flex flex-col items-center">
+                <div className="relative mb-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-purple-500/10 text-purple-500 z-10">
+                    <span className="text-2xl font-bold">3</span>
+                  </div>
+                  <div className="absolute top-1/2 left-full h-px w-full bg-gradient-to-r from-purple-500 to-transparent hidden md:block"></div>
+                </div>
+                <h3 className="text-xl font-semibold text-white text-center mb-2">Industry-Tuned Intelligence</h3>
+                <p className="text-white/70 text-center text-sm">
+                  Learns your categories, structure, and vendor behaviors. Adapts with every document.
+                </p>
+              </div>
+
+              {/* Step 4 */}
+              <div className="flex flex-col items-center">
+                <div className="relative mb-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-fuchsia-500/10 text-fuchsia-500 z-10">
+                    <span className="text-2xl font-bold">4</span>
+                  </div>
+                  <div className="absolute top-1/2 left-full h-px w-full bg-gradient-to-r from-fuchsia-500 to-transparent hidden md:block"></div>
+                </div>
+                <h3 className="text-xl font-semibold text-white text-center mb-2">Autonomous Follow-Up</h3>
+                <p className="text-white/70 text-center text-sm">
+                  Notices if a recurring invoice is missing. Emails for it. Reminds vendors. Fills in the gaps.
+                </p>
+              </div>
+
+              {/* Step 5 */}
+              <div className="flex flex-col items-center">
+                <div className="relative mb-6">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-cyan-500/10 text-cyan-500 z-10">
+                    <span className="text-2xl font-bold">5</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-white text-center mb-2">Always Evolving</h3>
+                <p className="text-white/70 text-center text-sm">
+                  Neveen improves with each use. She's not a static tool—she's an agent who grows with your business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Features Section */}
         <section id="features" className="py-20">
           <div className="container">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">What Neveen Does</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">
+                Beyond Extraction. True Autonomy.
+              </h2>
               <p className="mt-4 text-white/70">
-                Neveen seamlessly ingests invoices from multiple channels and transforms unstructured documents into
-                structured financial data ready for your accounting systems.
+                Neveen doesn't just process documents—she acts on them with intelligence and purpose.
               </p>
             </div>
 
@@ -330,10 +417,10 @@ export default function LandingPage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-2 text-xl font-semibold text-white">Multi-Channel Intake</h3>
+                  <h3 className="mb-2 text-xl font-semibold text-white">Inbox-Connected via Nylas</h3>
                   <p className="text-white/70">
-                    Effortlessly capture invoices through direct uploads, email integration, or batch processing. Your
-                    documents find their way to you, not the other way around.
+                    No more download-and-upload chaos. Forward your invoices to Neveen—just like a real assistant. She
+                    works from where your documents arrive.
                   </p>
                 </div>
               </div>
@@ -358,10 +445,10 @@ export default function LandingPage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-2 text-xl font-semibold text-white">AI-Powered Extraction</h3>
+                  <h3 className="mb-2 text-xl font-semibold text-white">Built-In Memory</h3>
                   <p className="text-white/70">
-                    Our AI doesn't just read your invoices—it understands them. Vendor identification, data extraction,
-                    and validation happen with remarkable 99.8% accuracy.
+                    Remembers recurring vendors, amounts, and expected timelines—like a real assistant. Neveen replaces
+                    manual data entry with autonomous intelligence.
                   </p>
                 </div>
               </div>
@@ -386,10 +473,68 @@ export default function LandingPage() {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-2 text-xl font-semibold text-white">Seamless Integration</h3>
+                  <h3 className="mb-2 text-xl font-semibold text-white">Cross-Platform Precision</h3>
                   <p className="text-white/70">
-                    Structured data flows effortlessly into your existing financial ecosystems. Clean JSON and CSV
-                    exports with the confidence of perfect data.
+                    Handles PDFs, CSVs, Excel files, images, email bodies, and more. Missing invoice? Neveen follows up
+                    automatically.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 grid gap-8 md:grid-cols-2">
+              {/* Feature 4 */}
+              <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-sm transition-all hover:border-fuchsia-500/50 hover:shadow-lg hover:shadow-fuchsia-500/10">
+                <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gradient-to-br from-fuchsia-600 to-fuchsia-900 opacity-20 blur-2xl transition-all group-hover:opacity-30"></div>
+                <div className="relative">
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-fuchsia-500/10 text-fuchsia-500">
+                    <svg
+                      className="h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="mb-2 text-xl font-semibold text-white">Human-in-the-Loop Optional</h3>
+                  <p className="text-white/70">
+                    Let Neveen run autonomously or review her actions before submission. You choose the level of
+                    oversight that fits your workflow.
+                  </p>
+                </div>
+              </div>
+
+              {/* Feature 5 */}
+              <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-sm transition-all hover:border-cyan-500/50 hover:shadow-lg hover:shadow-cyan-500/10">
+                <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gradient-to-br from-cyan-600 to-cyan-900 opacity-20 blur-2xl transition-all group-hover:opacity-30"></div>
+                <div className="relative">
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-cyan-500/10 text-cyan-500">
+                    <svg
+                      className="h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="mb-2 text-xl font-semibold text-white">Audit-Ready and Secure</h3>
+                  <p className="text-white/70">
+                    Every action is logged, encrypted, and ready for review. Neveen maintains complete audit trails,
+                    ensuring compliance and transparency.
                   </p>
                 </div>
               </div>
@@ -397,177 +542,45 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* Capabilities Section */}
-        <section id="capabilities" className="py-20">
-          <div className="container">
-            <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-black/40 backdrop-blur-sm">
-              <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-fuchsia-500 opacity-10 blur-3xl"></div>
-              <div className="absolute -bottom-20 -right-20 h-64 w-64 rounded-full bg-cyan-500 opacity-10 blur-3xl"></div>
-
-              <div className="grid gap-8 p-8 md:grid-cols-2 md:p-12">
-                <div className="flex flex-col justify-center">
-                  <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">Core Capabilities</h2>
-                  <p className="mt-4 text-white/70">
-                    Neveen doesn't just process documents—it delivers financial intelligence with quiet confidence,
-                    reducing accounts payable processing time by up to 80%.
-                  </p>
-
-                  <div className="mt-8 space-y-4">
-                    <div className="flex items-start">
-                      <div className="mr-4 flex h-8 w-8 items-center justify-center rounded-full bg-fuchsia-500/10 text-fuchsia-500">
-                        <svg
-                          className="h-4 w-4"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-medium text-white">Intelligent Validation</h3>
-                        <p className="text-sm text-white/70">
-                          Field-level confidence indicators provide transparent assurance, highlighting exactly where
-                          human review may be needed.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start">
-                      <div className="mr-4 flex h-8 w-8 items-center justify-center rounded-full bg-cyan-500/10 text-cyan-500">
-                        <svg
-                          className="h-4 w-4"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-medium text-white">Elegant Correction Interface</h3>
-                        <p className="text-sm text-white/70">
-                          When human review is needed, our intuitive interface makes corrections quick and effortless,
-                          maintaining your workflow.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start">
-                      <div className="mr-4 flex h-8 w-8 items-center justify-center rounded-full bg-purple-500/10 text-purple-500">
-                        <svg
-                          className="h-4 w-4"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-medium text-white">Audit-Ready Documentation</h3>
-                        <p className="text-sm text-white/70">
-                          Every document is processed with complete audit trails, ensuring compliance and transparency
-                          for financial reporting.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="relative flex items-center justify-center">
-                  <div className="relative h-full w-full overflow-hidden rounded-xl border border-white/10">
-                    <div className="aspect-square w-full">
-                      {/* AI processing visualization */}
-                      <div className="h-full w-full bg-black">
-                        <div className="relative h-full w-full p-4">
-                          {/* Document outline */}
-                          <div className="absolute left-1/2 top-1/2 h-4/5 w-3/5 -translate-x-1/2 -translate-y-1/2 rounded-lg border border-white/10 bg-white/5"></div>
-
-                          {/* Document content lines */}
-                          <div className="absolute left-[30%] top-[25%] h-1 w-[40%] rounded-full bg-white/20"></div>
-                          <div className="absolute left-[30%] top-[30%] h-1 w-[30%] rounded-full bg-white/20"></div>
-                          <div className="absolute left-[30%] top-[35%] h-1 w-[35%] rounded-full bg-white/20"></div>
-
-                          <div className="absolute left-[30%] top-[45%] h-1 w-[40%] rounded-full bg-white/20"></div>
-                          <div className="absolute left-[30%] top-[50%] h-1 w-[25%] rounded-full bg-white/20"></div>
-
-                          <div className="absolute left-[30%] top-[60%] h-1 w-[40%] rounded-full bg-white/20"></div>
-                          <div className="absolute left-[30%] top-[65%] h-1 w-[35%] rounded-full bg-white/20"></div>
-                          <div className="absolute left-[30%] top-[70%] h-1 w-[30%] rounded-full bg-white/20"></div>
-
-                          {/* Extraction points */}
-                          <div className="absolute left-[40%] top-[25%] h-3 w-3 animate-pulse rounded-full bg-fuchsia-500 shadow-lg shadow-fuchsia-500/50"></div>
-                          <div className="absolute left-[50%] top-[45%] h-3 w-3 animate-pulse rounded-full bg-cyan-500 shadow-lg shadow-cyan-500/50"></div>
-                          <div className="absolute left-[45%] top-[60%] h-3 w-3 animate-pulse rounded-full bg-purple-500 shadow-lg shadow-purple-500/50"></div>
-
-                          {/* Data flow lines */}
-                          <div className="absolute left-[42%] top-[25%] h-[20%] w-[20%] border-b border-r border-fuchsia-500/30"></div>
-                          <div className="absolute left-[52%] top-[45%] h-[5%] w-[10%] border-b border-l border-cyan-500/30"></div>
-                          <div className="absolute left-[47%] top-[60%] h-[10%] w-[15%] border-t border-r border-purple-500/30"></div>
-
-                          {/* Structured data output */}
-                          <div className="absolute right-[10%] top-[20%] flex flex-col gap-2">
-                            <div className="flex items-center gap-2">
-                              <div className="h-2 w-2 rounded-full bg-fuchsia-500"></div>
-                              <div className="h-1 w-16 rounded-full bg-fuchsia-500/50"></div>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="h-2 w-2 rounded-full bg-cyan-500"></div>
-                              <div className="h-1 w-20 rounded-full bg-cyan-500/50"></div>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <div className="h-2 w-2 rounded-full bg-purple-500"></div>
-                              <div className="h-1 w-12 rounded-full bg-purple-500/50"></div>
-                            </div>
-                          </div>
-
-                          {/* Processing indicators */}
-                          <div className="absolute bottom-[15%] right-[15%] flex flex-col gap-1">
-                            <div className="h-1 w-24 rounded-full bg-gradient-to-r from-fuchsia-500 to-fuchsia-500/0"></div>
-                            <div className="h-1 w-24 rounded-full bg-gradient-to-r from-cyan-500 to-cyan-500/0"></div>
-                            <div className="h-1 w-24 rounded-full bg-gradient-to-r from-purple-500 to-purple-500/0"></div>
-                          </div>
-
-                          {/* Central processing node */}
-                          <div className="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-fuchsia-500/20 to-cyan-500/20 shadow-lg shadow-fuchsia-500/20"></div>
-                          <div className="absolute left-1/2 top-1/2 h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10"></div>
-
-                          {/* Pulse rings */}
-                          <div className="absolute left-1/2 top-1/2 h-24 w-24 -translate-x-1/2 -translate-y-1/2 animate-ping rounded-full border border-fuchsia-500/30 opacity-30"></div>
-                          <div
-                            className="absolute left-1/2 top-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 animate-ping rounded-full border border-cyan-500/20 opacity-20"
-                            style={{ animationDelay: "0.5s" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Perfect For Section */}
-        <section className="py-20">
+        {/* Use Cases Section */}
+        <section className="py-20 bg-black/30">
           <div className="container">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">Perfect For</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">Who Neveen Works For</h2>
               <p className="mt-4 text-white/70">
                 Neveen is designed for organizations that demand precision and efficiency in their financial operations.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               <div className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-fuchsia-500/10">
                   <svg
                     className="h-5 w-5 text-fuchsia-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="mb-2 text-lg font-medium text-white">Startups</h3>
+                <p className="text-sm text-white/70">
+                  Automate your ops without hiring a back office. Scale your financial operations without scaling
+                  headcount.
+                </p>
+              </div>
+
+              <div className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
+                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-cyan-500/10">
+                  <svg
+                    className="h-5 w-5 text-cyan-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -581,33 +594,10 @@ export default function LandingPage() {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-medium text-white">Financial Teams</h3>
+                <h3 className="mb-2 text-lg font-medium text-white">Finance Teams</h3>
                 <p className="text-sm text-white/70">
-                  Drowning in manual data entry and seeking to redirect skilled staff to higher-value financial
+                  Slash manual entry and accelerate month-end closes. Redirect skilled staff to higher-value financial
                   analysis.
-                </p>
-              </div>
-
-              <div className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-cyan-500/10">
-                  <svg
-                    className="h-5 w-5 text-cyan-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-medium text-white">Businesses</h3>
-                <p className="text-sm text-white/70">
-                  Seeking to eliminate invoice processing errors and ensure accuracy in financial records and payments.
                 </p>
               </div>
 
@@ -624,13 +614,14 @@ export default function LandingPage() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={1.5}
-                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-medium text-white">Organizations</h3>
+                <h3 className="mb-2 text-lg font-medium text-white">Enterprises</h3>
                 <p className="text-sm text-white/70">
-                  Requiring audit-ready financial documentation and transparent processing for compliance.
+                  Replace entire departments with one intelligent agent. Seamlessly integrate with existing accounting
+                  systems and ERP platforms.
                 </p>
               </div>
 
@@ -647,59 +638,14 @@ export default function LandingPage() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={1.5}
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                     />
                   </svg>
                 </div>
-                <h3 className="mb-2 text-lg font-medium text-white">Companies</h3>
+                <h3 className="mb-2 text-lg font-medium text-white">Freelancers & Creators</h3>
                 <p className="text-sm text-white/70">
-                  Looking to reduce accounts payable processing time by up to 80% and improve operational efficiency.
-                </p>
-              </div>
-
-              <div className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-cyan-500/10">
-                  <svg
-                    className="h-5 w-5 text-cyan-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
-                    />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-medium text-white">Enterprises</h3>
-                <p className="text-sm text-white/70">
-                  Needing seamless integration with existing accounting systems and ERP platforms.
-                </p>
-              </div>
-
-              <div className="rounded-xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-purple-500/10">
-                  <svg
-                    className="h-5 w-5 text-purple-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                    />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-medium text-white">Growing Businesses</h3>
-                <p className="text-sm text-white/70">
-                  Scaling operations and needing financial processes that can grow without adding headcount.
+                  Forward invoices. Neveen does the rest. Focus on your craft while your financial documents are handled
+                  automatically.
                 </p>
               </div>
             </div>
@@ -712,11 +658,11 @@ export default function LandingPage() {
             <div className="mx-auto max-w-3xl rounded-3xl border border-white/10 bg-black/40 p-8 backdrop-blur-sm md:p-12">
               <div className="text-center">
                 <h2 className="text-3xl font-bold tracking-tight text-white md:text-4xl">
-                  Ready to Transform Your Invoice Processing?
+                  She's not a tool. She's a teammate.
                 </h2>
                 <p className="mt-4 text-white/70">
-                  Join our exclusive beta program and be among the first to experience Neveen's invoice intelligence
-                  platform. Early access members receive priority onboarding and dedicated support.
+                  Try Neveen AI and experience what true autonomy feels like. Join our exclusive beta program and
+                  replace your entire invoice processing workflow with Neveen's autonomous intelligence.
                 </p>
                 <div className="mt-10">
                   <a
@@ -751,8 +697,16 @@ export default function LandingPage() {
                 Contact
               </Link>
             </div>
-            <div>
+            <div className="flex flex-col items-end">
               <p className="text-xs">&copy; {new Date().getFullYear()} Neveen. All rights reserved.</p>
+              <a
+                href="https://www.bearishfh.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-white/50 hover:text-white mt-1"
+              >
+                A Bearish Company
+              </a>
             </div>
           </div>
         </div>
